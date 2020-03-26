@@ -4,7 +4,7 @@ const textSize = 'Texto'.length
 console.log(`Quantidade de letras: ${textSize}`);
 
 
-// Retorna um arrua quebrando a string por um delimitador */
+// Retorna um array quebrando a string por um delimitador */
 const splittedText = 'Texto'.split('x');
 console.log('\nArray com as posições separadas pelo delimitador:', splittedText);
 

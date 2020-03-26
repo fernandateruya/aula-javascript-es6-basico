@@ -1,3 +1,6 @@
 const nullVariable = null;
 
-console.log('Tipo de variável: ', typeof nullVariable);
+console.log('Tipo variavel nullVariable: ', typeof nullVariable);
+
+
+
