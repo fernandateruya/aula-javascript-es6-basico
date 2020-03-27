@@ -25,6 +25,8 @@ console.log('\nValor da string da segunda letra até a última:', secondToEnd);
 
 const twoCharsBeforeFirstPos = 'Texto'.substr(0, 2);
 console.log('\nAs duas letras primeiras letras são:', twoCharsBeforeFirstPos);
+ 
+
 
 /* 
 Ressultado da Execução

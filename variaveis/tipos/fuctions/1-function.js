@@ -1,24 +1,36 @@
+// uma forma de escrever funções
+
 function fn() {
-    return 'Code here';
+    return 'bababab';
 }
 
-const arrowFn = () => 'Code here';
+console.log('\nExecutando a função fn(): ', fn());
+
+// outra forma de escrever funções usando o arrowFunction
+// executando apenas uma expressão
+const arrowFn = () => 'bebebeb';
+
+console.log('\nExecutando a função arrowFn: ', arrowFn());
+
+//outra forma de escrever funções usando o arrowFunction
+// executando mais de uma expressão
 const arrowFn2 = () => {
     // Mais de uma expressão
-    return 'Code here';
+    return 'bibibi';
 }
 
-//Funções tambem são objetos
-fn.prop = 'Posso criar propriedades';
+console.log('\nExecutando a função arrowFn2: ', arrowFn2());
 
-console.log(fn());
-console.log(fn.prop);
+//Funções tambem são objetos e podem possuir atributos
+fn.prop = 'Ultra mega blaster super';
+console.log('\nLendo atributo prop da função fn(): ', fn.prop);
+
 
 //Receber parametros
 const logValue = value => console.log(value);
-const LogFnResult = fnParam => console.log(fnParam());
 
-LogFnResult(fn);
+
+const LogFnResult = fnParam => console.log(fnParam());
 
 // Receber e retornar funções
 const controlFnExec = fnParam => allowed => {

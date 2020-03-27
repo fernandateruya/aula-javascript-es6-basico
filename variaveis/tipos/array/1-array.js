@@ -19,7 +19,7 @@ const persons = [
     },
     {
         name: 'Caio',
-        age:18,
+        age:17,
         gender: gender.MAN
     },
 ];
@@ -68,9 +68,7 @@ console.log('\nSoma de idades das pessoas que possuem idade par ', totalEvenAge)
                         
 /* 
 
-Resultado da execução
-
-[Running] node "/home/fernanda/Documents/aula-javascript-es6-basico/variaveis/tipos/array/1-array.js"
+Running] node "/home/fernanda/Documents/aula-javascript-es6-basico/variaveis/tipos/array/1-array.js"
 Items: 3
 
 A variavel persons é um array?  true
@@ -81,7 +79,7 @@ Nome: Larissa
 
 Nome: Caio
 
-Nova lista apenas com homens: [ { name: 'Caio', age: 18, gender: Symbol(M) } ]
+Nova lista apenas com homens: [ { name: 'Caio', age: 17, gender: Symbol(M) } ]
 
 Pessoas com a adição do course: [ { name: 'Tabata',
     age: 26,
@@ -92,14 +90,13 @@ Pessoas com a adição do course: [ { name: 'Tabata',
     gender: Symbol(W),
     course: 'Introducao ao Javascript' },
   { name: 'Caio',
-    age: 18,
+    age: 17,
     gender: Symbol(M),
     course: 'Introducao ao Javascript' } ]
 
-Soma de idade das pessoas  76
+Soma de idade das pessoas  75
 
-Soma de idades das pessoas que possuem idade par  76
-
+Soma de idades das pessoas que possuem idade par  58
  */
 
 
